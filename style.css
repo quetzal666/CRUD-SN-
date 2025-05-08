@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    padding: 2em;
+    background-color: #81807e;
+  }
+  h1 {
+    color: #fffcfc;
+  }
+  form {
+    margin-bottom: 1em;
+  }
+  input {
+    padding: 0.5em;
+    margin-right: 0.5em;
+  }
+  button {
+    padding: 0.5em 1em;
+  }
+  .book {
+    background: white;
+    padding: 1em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+  }
+  
