@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v4
+      
+    - name: Configurar entorno
+      run: |
+        echo "Configurando el entorno..."
+        # Aquí van los comandos específicos de tu proyecto
+        
+    - name: Ejecutar pruebas
+      run: |
+        echo "Ejecutando tests..."
+        # Aquí van los comandos para ejecutar pruebas
+        
+    - name: Construir proyecto
+      run: |
+        echo "Construyendo..."
+        # Aquí van los comandos de build
